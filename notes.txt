@@ -1,0 +1,30 @@
+What is promise
+=> It hold the result of async operation.
+=> to overcome the problem  of callbackhell scenario promise is used.
+=> It is an object, which holds the results of async operation.
+-promise states
+-promise chain
+-promise.all()
+-use of feth()& then()
+
+callbackhell:-
+function a1(){
+function a2(){
+}function a3(){}
+console.log("Hi all") }
+
+
+syntax:- let/const variablenama = new Promise((resolve,reject)=>{})
+
+=> promise states:-
+for every promise objects we have 3 states'
+1.pending
+2.fullfilled/resolved
+3.rejected
+
+.then and catch 
+- to handle the promise object 
+
+** promise in function:-
+it will return the promiseif 
+if there are both resolved and rejects state for the same funtion it executes the first state.
